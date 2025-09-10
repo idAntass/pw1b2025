@@ -1,80 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pagina de tabela</title>
-</head>
-<body>
- <table border="2">
-     <thead>
-       <tr> 
-           <th>nome</th>      
-           <th>altura</th>
-           <th>peso</th>
-           <th></th>      
-       </tr>
-     </thead>
-     <tbody>
-       <tr>
-          <td>igor augusto</td>
-          <td>1.80</td>
-          <td>83.kg</td>
-          <td></td>
-       </tr>
-       <tr>
-        <td>lucas</td>
-        <td>1.50</td>
-        <td>62.kg</td>
-        <td>
-          <button>excluir pessoa</button>
-        </td>
-     </tr>
-     <tr>
-      <td>andressa</td>
-      <td>1.80</td>
-      <td>83 kg</td>
-   </tr>
-   <tr>
-     <td colspan="4">celula mesclada</td>
-
-   </tr>
-   <tr>
-       <td rowspan="3">aqui as linhas sao mescladas</td>
-
-       <td>1.67</td>
-       <td>65 kg</td>
-       <td>
-         <button>desmesclar</button>
-       </td>
-
-   </tr>
-   <tr>
-  
-   
-    <td>1.67</td>
-    <td>65 kg</td>
-    <td>
-    <button>desmesclar</button>
-    <td>
-</tr>
-<tr>
-  
-  <td>carlos alberto de nobrega</td>
-  <td>1.77</td>
-  <td>75 kg</td>
-
-</tr>
-     </tbody>
- </table>
-  </a> 
-</body>
-</html>
-
-
-
-
 
 
 
@@ -82,75 +5,129 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pagina de tabela</title>
+    <title>Tabela de Produtos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 2px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        img {
+            max-width: 100px;
+            height: auto;
+        }
+        a {
+            text-decoration: none;
+            color: #0077cc;
+            font-weight: bold;
+        }
+        button {
+            padding: 8px 12px;
+            background-color: #0077cc;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #005fa3;
+        }
+    </style>
 </head>
 <body>
- <table border="2">
-     <thead>
-       <tr> 
-           <th>produto</th>      
-           <th>preço</th>
-           <th></th>      
-       </tr>
-     </thead>
-     <tbody>
-       <tr>
-          <td>garrafa</td>
-          <td>50r$</td>
-          <td></td>
-          <td>
-            <a href="https://www.gocase.com.br/garrafa-termica-fresh-corinthians-escudo/p/5720-garrafafresh950ebook?utm_source=google&utm_medium=cpc&utm_campaign=21436045364&utm_content=164168979597&utm_term&gad_source=1&gad_campaignid=21436045364&gbraid=0AAAAADr5lVJjE7eXcZz-5psBZUu-w9qnT&gclid=EAIaIQobChMIkJ-X0uaujwMVdlxIAB1DKykeEAQYAiABEgL8hfD_BwE">compre aqui!</a>
-          </td>
-       </tr>
-       <tr>
-        <td>camisa</td>
-        <td>300r$</td>
-        <td></td>
-        <td>
-          <a href="https://www.shoptimao.com.br/p/camisa-corinthians-i-2526-sn-torcedor-nike-masculina-branco+preto-JD8-9941-028?campaign=google-pla&gad_source=1&gad_campaignid=22565395139&gbraid=0AAAAAD7siFRxgrnv-I6ez_hGWeQ3xS-59&gclid=EAIaIQobChMIpYa7xeOujwMVDD1ECB1ghiB7EAQYAyABEgKRfPD_BwE">compre aqui!</a>
-        </td>
-     </tr>
-     <tr>
-      <td>bone</td>
-      <td>250r$</td>
-      <td>
-        <a href="https://andarecalcados.com.br/produtos/bone-corinthians-supercap-patch-bordado-licenciado-oficial/?variant=1216340581&pf=mc&gad_source=1&gad_campaignid=21083991733&gbraid=0AAAAAo-pKbioH47K9okbVva-gW9uQXzFM&gclid=EAIaIQobChMIjanL_-aujwMVcWFIAB3gADqfEAQYASABEgIvGvD_BwE">compre aqui!</a>
-      </td>
-   </tr>
-   <tr>
-     <td colspan="4"></td>
+   <ul>
+        <li>
+            <a href="fotos.html">
+               fotos
+            </a>
+            <li>
+            <a href="formularios.html">
+                formularios
+            </a>    
+            </li>
+        <li>
+            <a href="tabela.htm">
+                tabela
+            </a>
+        </li>
+        <li>
+            <a href="home.html">
+                home
+            </a>
+        </li>
+    </ul>
 
-   </tr>
-   <tr>
-       <td rowspan="3"></td>
+    <h1>Produtos do Corinthians</h1>
 
-       <td></td>
-       <td></td>
-       <td>
-         <button  ></button>
-       </td>
+    <table>
+        <thead>
+            <tr>
+                <th>Imagem</th>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Link para Compra</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <img src="imagens/gr.avif"width="400" height="210"/>
+                </td>
+                <td>Garrafa</td>
+                <td>R$ 200,00</td>
+                <td>
+                    <a href="https://www.gocase.com.br/garrafa-termica-fresh-corinthians-escudo/p/5720-garrafafresh950ebook" target="_blank">Compre aqui!</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <img src="imagens/camisa.jpg"width="400" height="210"/>
+                </td>
+                <td>Camisa</td>
+                <td>R$ 300,00</td>
+                <td>
+                    <a href="https://www.shoptimao.com.br/p/camisa-corinthians-i-2526-sn-torcedor-nike-masculina-branco+preto-JD8-9941-028" target="_blank">Compre aqui!</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <img src="imagens/bone.webp"width="400" height="210"/>
+                </td>
+                <td>Boné</td>
+                <td>R$ 90,00</td>
+                <td>
+                    <a href="https://andarecalcados.com.br/produtos/bone-corinthians-supercap-patch-bordado-licenciado-oficial/" target="_blank">Compre aqui!</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="imagens/ch2.webp"idth="400" height="210"/>
+                </td>
+                <td>Chaveiro</td>
+                <td>R$ 30,00</td>
+                <td>
+                    <a href="https://www.couro50.com.br/chaveiro-corinthians?variant_id=7210" target="_blank">Compre aqui!</a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <button onclick="alert('Compra finalizada com sucesso!')">Finalizar Compra</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 
-   </tr>
-   <tr>
-  
-   
-    <td></td>
-    <td></td>
-    <td>
-   
-    <td>
-</tr>
-<tr>
-  
-  <td>chaveiro</td>
-  <td>30r$</td>
-  <td></td>
-
-</tr>
-     </tbody>
- </table>
-  </a> 
 </body>
 </html>
