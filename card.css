@@ -1,6 +1,43 @@
 .card{
-    border:1px solid #000000;
-    background-color: #ffff00;
+    border: none;
+    background-color: #ffffff;
     width: 268px;
     height: 474px;
+}
+
+.description{
+    font-size: medium;
+    text-align: justify;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold
+}
+.price{
+    font-size: ;
+    font-weight: bold;
+    color: red;
+}
+.buttom-buy{
+    background-color: darkorange;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    width: 93%;
+}
+.desconto{
+    text-decoration: line-through;
+    color:#000000
+}
+
+.parcelamento{
+    color:grey
+}
+.buttom-buy{
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom:10px;
+    border-radius:5px;
+    font-size: large;
+
 }
